@@ -1,0 +1,71 @@
+.PresentationCard {
+    margin: 10px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img-sombra {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 270px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(5, 7, 82, 0.575);
+    border-radius: 50%;
+}
+
+.img-container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid rgb(25, 25, 145);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 210px;
+    height: 210px;
+}
+
+.info-container {
+    margin-top: 100px;
+    padding-top: 160px;
+    width: 310px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    box-shadow: 11px 17px 9px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 11px 17px 9px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 17px 9px -4px rgba(0,0,0,0.75);
+}
+
+.info-container h1 {
+    margin-bottom: 8px;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.info-container h3 {
+    margin-top: 0;
+    color: rgb(194, 194, 194);
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-media i {
+    margin: 0 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
